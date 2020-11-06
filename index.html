@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF_8">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Cifrado César</title>
+</head>
+<body>
+	<p>Este cifrado es un ejemplo del cifrado original de César, en el cuál se usa un cambio de posición dentro del alfabeto en tres lugares.</p>
+	</br>
+	<textarea id="cadena"></textarea>
+	</br>
+	<div id="dv">
+	Posición:<input type="number" id="desp" min="0" step="1" >
+	</div></br>
+	<div id="dv2">
+	<input type="button" value="Cifrar" onclick="codificar()" name="" class="btn">
+	<input type="button" value="Descifrar" onclick="decodificar()" name="" class="btn">
+	</div>
+	<div id="resultado"></div>
+	<script type="text/javascript" src="js/logica.js"></script>
+</body>
+</html>
